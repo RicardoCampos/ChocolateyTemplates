@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EqEmu-x86-Bots</id>
+    <title>EqEmu-x86-Bots</title>
+    <version>1.0.0</version>
+    <authors>EQEmu Developers</authors>
+    <owners>Ricardo Campos</owners>
+    <summary>EqEmu-x86-Bots</summary>
+    <description>Everquest Emulator Server Install x86. This build includes support for bots.</description>
+    <projectUrl>http://www.eqemulator.org/</projectUrl>
+    <tags>EqEmu-x86-Bots admin everquest emulator</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/EQEmu/Server/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/EqEmu-x86-Bots/EqEmu-x86-Bots.png</iconUrl>-->
+    <dependencies>
+		<dependency id='mariadb' />
+		<dependency id='vcredist2012' />
+		<dependency id='ActivePerl-EqEmu-x86' />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

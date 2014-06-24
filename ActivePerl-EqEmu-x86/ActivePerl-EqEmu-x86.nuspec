@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ActivePerl-EqEmu-x86</id>
+    <title>ActivePerl-EqEmu-x86</title>
+    <version>5.16.3.1605</version>
+    <authors>ActiveState</authors>
+    <owners>Vsab</owners>
+    <summary>ActivePerl-EqEmu-x86</summary>
+    <description>ActivePerl 5.16.3.1604 x86 - compatible with EQEmu. Please use this package if you want an up to date version:- http://chocolatey.org/packages/ActivePerl</description>
+    <projectUrl>http://www.activestate.com/activeperl/downloads</projectUrl>
+    <tags>ActivePerl-EqEmu-x86 admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.activestate.com/activeperl/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
